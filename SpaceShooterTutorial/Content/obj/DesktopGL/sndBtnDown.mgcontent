@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sndBtnDown.wav</SourceFile>
+  <SourceTime>2019-02-12T04:47:05.5513198-05:00</SourceTime>
+  <DestFile>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/bin/DesktopGL/sndBtnDown.xnb</DestFile>
+  <DestTime>2019-04-26T16:05:47.4771475-04:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2018-12-08T11:35:54-05:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
