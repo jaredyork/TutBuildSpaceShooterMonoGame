@@ -18,7 +18,7 @@ namespace SpaceShooterTutorial
         {
             this.textures = textures;
 
-            for (int i = -1; i < 3; i++)
+            for (int i = -1; i < 2; i++) // position indexes
             {
                 for (int j = 0; j < 3; j++) { // 3 layers
                     Texture2D texture = textures[Game1.randInt(0, textures.Count - 1)];

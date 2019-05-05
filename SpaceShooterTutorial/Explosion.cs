@@ -25,7 +25,7 @@ namespace SpaceShooterTutorial
             setupBoundingBox(sprite.frameWidth, sprite.frameHeight);
         }
 
-        public void Update(GameTime gameTime)
+        public new void Update(GameTime gameTime)
         {
             sprite.Update(gameTime);
 

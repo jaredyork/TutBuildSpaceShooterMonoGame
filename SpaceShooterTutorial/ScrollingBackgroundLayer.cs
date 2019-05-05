@@ -31,7 +31,6 @@ namespace SpaceShooterTutorial
 
         public new void Update(GameTime gameTime)
         {
-            //Console.WriteLine("bg layer pos: " + position.ToString() + ", vel: " + body.velocity.ToString());
             base.Update(gameTime);
         }
 

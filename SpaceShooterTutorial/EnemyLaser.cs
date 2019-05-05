@@ -12,7 +12,6 @@ namespace SpaceShooterTutorial
     class EnemyLaser : Entity
     {
         private Texture2D texture;
-        private int hp = 1;
 
         public EnemyLaser(Texture2D texture, Vector2 position, Vector2 velocity) : base()
         {
@@ -21,7 +20,7 @@ namespace SpaceShooterTutorial
             body.velocity = velocity;
         }
 
-        public void Update(GameTime gameTime)
+        public new void Update(GameTime gameTime)
         {
             base.Update(gameTime);
         }

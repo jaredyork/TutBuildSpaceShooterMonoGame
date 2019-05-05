@@ -13,7 +13,6 @@ namespace SpaceShooterTutorial
     {
         public Texture2D texture;
         public AnimatedSprite sprite;
-        public int hp = 1;
         public float moveSpeed = 4;
         private bool _dead = false;
         public bool isDead() { return _dead; }

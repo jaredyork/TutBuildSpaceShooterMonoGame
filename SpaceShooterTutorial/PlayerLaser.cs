@@ -12,7 +12,6 @@ namespace SpaceShooterTutorial
     class PlayerLaser : Entity
     {
         private Texture2D texture;
-        private int hp = 1;
 
         public PlayerLaser(Texture2D texture, Vector2 position, Vector2 velocity) : base()
         {

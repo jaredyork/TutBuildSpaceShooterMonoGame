@@ -45,10 +45,9 @@ namespace SpaceShooterTutorial
             Gameplay,
             GameOver
         }
-        GameState _gameState;
+        private GameState _gameState;
 
-        KeyboardState lastKeyState = Keyboard.GetState();
-        KeyboardState keyState = Keyboard.GetState();
+        private KeyboardState keyState = Keyboard.GetState();
 
         private MenuButton playButton;
         private MenuButton restartButton;
@@ -86,7 +85,7 @@ namespace SpaceShooterTutorial
         {
             // TODO: Add your initialization logic here
 
-            this.IsMouseVisible = true;
+            IsMouseVisible = true;
 
             graphics.PreferredBackBufferWidth = 480;
             graphics.PreferredBackBufferHeight = 640;
@@ -134,14 +133,6 @@ namespace SpaceShooterTutorial
 
             texExplosion = Content.Load<Texture2D>("sprExplosion");
 
-            fontArial = Content.Load<SpriteFont>("ArialHeading");
-
-            scrollingBackground = new ScrollingBackground(texBgs);
-
-            playButton = new MenuButton(this, new Vector2(graphics.PreferredBackBufferWidth * 0.5f - (int)(texBtnPlay.Width * 0.5), graphics.PreferredBackBufferHeight * 0.5f), texBtnPlay, texBtnPlayDown, texBtnPlayHover);
-            restartButton = new MenuButton(this, new Vector2(graphics.PreferredBackBufferWidth * 0.5f - (int)(texBtnPlay.Width * 0.5), graphics.PreferredBackBufferHeight * 0.5f), texBtnRestart, texBtnRestartDown, texBtnRestartHover);
-
-
             // Load sounds
             sndBtnDown = Content.Load<SoundEffect>("sndBtnDown");
             sndBtnOver = Content.Load<SoundEffect>("sndBtnOver");
@@ -150,6 +141,17 @@ namespace SpaceShooterTutorial
                 sndExplode.Add(Content.Load<SoundEffect>("sndExplode" + i));
             }
             sndLaser = Content.Load<SoundEffect>("sndLaser");
+
+
+            // Load sprite fonts
+
+            fontArial = Content.Load<SpriteFont>("arialHeading");
+
+            scrollingBackground = new ScrollingBackground(texBgs);
+
+
+            playButton = new MenuButton(this, new Vector2(graphics.PreferredBackBufferWidth * 0.5f - (int)(texBtnPlay.Width * 0.5), graphics.PreferredBackBufferHeight * 0.5f), texBtnPlay, texBtnPlayDown, texBtnPlayHover);
+            restartButton = new MenuButton(this, new Vector2(graphics.PreferredBackBufferWidth * 0.5f - (int)(texBtnPlay.Width * 0.5), graphics.PreferredBackBufferHeight * 0.5f), texBtnRestart, texBtnRestartDown, texBtnRestartHover);
 
 
             changeGameState(GameState.MainMenu);
@@ -176,7 +178,6 @@ namespace SpaceShooterTutorial
 
             // TODO: Add your update logic here
 
-            lastKeyState = keyState;
             keyState = Keyboard.GetState();
 
             scrollingBackground.Update(gameTime);
@@ -584,7 +585,7 @@ namespace SpaceShooterTutorial
             base.Draw(gameTime);
         }
 
-        public void DrawMainMenu(SpriteBatch spriteBatch)
+        private void DrawMainMenu(SpriteBatch spriteBatch)
         {
             string title = "SPACE SHOOTER";
             spriteBatch.DrawString(fontArial, title, new Vector2(graphics.PreferredBackBufferWidth * 0.5f - (fontArial.MeasureString(title).X * 0.5f), graphics.PreferredBackBufferHeight * 0.2f), Color.White);
@@ -592,7 +593,7 @@ namespace SpaceShooterTutorial
             playButton.Draw(spriteBatch);
         }
 
-        public void DrawGameplay(SpriteBatch spriteBatch)
+        private void DrawGameplay(SpriteBatch spriteBatch)
         {
             for (int i = 0; i < enemies.Count; i++)
             {
@@ -620,7 +621,7 @@ namespace SpaceShooterTutorial
             }
         }
 
-        public void DrawGameOver(SpriteBatch spriteBatch)
+        private void DrawGameOver(SpriteBatch spriteBatch)
         {
             string title = "GAME OVER";
             spriteBatch.DrawString(fontArial, title, new Vector2(graphics.PreferredBackBufferWidth * 0.5f - (fontArial.MeasureString(title).X * 0.5f), graphics.PreferredBackBufferHeight * 0.2f), Color.White);

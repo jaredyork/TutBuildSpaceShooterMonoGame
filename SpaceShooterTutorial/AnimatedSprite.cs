@@ -65,7 +65,6 @@ namespace SpaceShooterTutorial
                 }
 
                 sourceRect = new Rectangle(currentFrame * this.frameWidth, 0, this.frameWidth, this.frameHeight);
-                currentFrame++;
                 updateTick = 0;
             }
         }

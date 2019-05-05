@@ -4,28 +4,28 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/File.spritefont</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/singlepixel.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sndBtnDown.wav</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sndBtnOver.wav</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sndExplode0.wav</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sndExplode1.wav</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sndLaser.wav</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprBg0.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprBg1.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprBtnPlay.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprBtnPlayDown.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprBtnPlayHover.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprBtnRestart.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprBtnRestartDown.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprBtnRestartHover.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprEnemy0.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprEnemy1.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprEnemy2.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprExplosion.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprLaserEnemy0.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprLaserPlayer.png</File>
-    <File>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprPlayer.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/File.spritefont</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/singlepixel.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sndBtnDown.wav</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sndBtnOver.wav</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sndExplode0.wav</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sndExplode1.wav</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sndLaser.wav</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprBg0.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprBg1.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprBtnPlay.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprBtnPlayDown.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprBtnPlayHover.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprBtnRestart.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprBtnRestartDown.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprBtnRestartHover.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprEnemy0.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprEnemy1.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprEnemy2.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprExplosion.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprLaserEnemy0.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprLaserPlayer.png</File>
+    <File>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprPlayer.png</File>
   </SourceFiles>
   <DestFiles>
     <File>ArialHeading.spritefont</File>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/sprExplosion.png</SourceFile>
+  <SourceFile>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/sprExplosion.png</SourceFile>
   <SourceTime>2019-02-12T04:47:05.6072895-05:00</SourceTime>
-  <DestFile>C:/Users/Jared/source/repos/TutBuildSpaceShooterMonoGame/SpaceShooterTutorial/Content/bin/DesktopGL/Content/sprExplosion.xnb</DestFile>
-  <DestTime>2019-05-04T13:05:31.4867745-04:00</DestTime>
+  <DestFile>C:/Users/Jared/source/repos/SpaceShooterTutorial/SpaceShooterTutorial/Content/bin/DesktopGL/Content/sprExplosion.xnb</DestFile>
+  <DestTime>2019-04-25T15:07:48.9523375-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
